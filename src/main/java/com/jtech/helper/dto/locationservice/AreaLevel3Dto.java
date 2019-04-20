@@ -27,4 +27,6 @@ public class AreaLevel3Dto {
 
 	@NotNull(message = "longitude cannot be null")
 	private Double longitude;
+
+	private Integer areaLevel2Id;
 }

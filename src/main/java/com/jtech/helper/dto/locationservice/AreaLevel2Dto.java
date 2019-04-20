@@ -20,4 +20,6 @@ public class AreaLevel2Dto {
 
 	@NotEmpty(message = "timezone cannot be empty")
 	private String timezone;
+
+	private Integer areaLevel1Id;
 }

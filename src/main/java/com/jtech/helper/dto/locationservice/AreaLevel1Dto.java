@@ -1,9 +1,5 @@
 package com.jtech.helper.dto.locationservice;
 
-import java.util.Set;
-
-import javax.validation.Valid;
-
 import org.hibernate.validator.constraints.NotEmpty;
 
 import lombok.AllArgsConstructor;
@@ -24,7 +20,4 @@ public class AreaLevel1Dto {
 
 	@NotEmpty(message = "timezone cannot be empty")
 	private String timezone;
-
-	@Valid
-	private Set<AreaLevel2Dto> areaLevel2List;
 }
